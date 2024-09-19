@@ -1,0 +1,42 @@
+---
+layout: layouts/default.liquid
+---
+
+<div class="main-sections">
+
+  <img src="/profile/emile(1).jpeg" alt="Profile Image">
+
+
+  <section>
+    <h2>About</h2>
+    {% assign posts = collections.posts %}
+    {% assign count = 0 %}
+    {% include "postlist.liquid" %}
+ 𝔪<sup>✶</sup> is exploring liminality in culture and technology through Oakgroup, Worldwide. Currents and priors include: Meta-Governance at ENS DAO / SONGS Music Publishing, NINETYONEMGMT, Artist Publishing Group, and Capitol Music—follow on <a href="https://twitter.com/estmcmxci">X</a> or send an email to <a href="mailto:m@oakgroup.co">m@oakgroup.co</a>.
+ 
+  </section>
+
+  {% assign tagList = collections | postTags %} {% if tagList.length > 0 %}
+  {% endif %}
+
+  <section>
+    <h2>Posts</h2>
+    {% assign posts = collections.posts %}
+    {% assign count = 3 %}
+    {% assign offset = 0 %}
+    {% include "postlist.liquid" %}
+    <a class="articles-link" href="/articles">All the articles</a>
+  </section>
+</div>
+
+<style>
+  .main-sections {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-7);
+  }
+  .articles-link {
+    display: block;
+    margin-top: var(--space-4);
+  }
+</style>
