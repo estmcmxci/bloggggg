@@ -5,12 +5,23 @@
   <link href="rss.xml" rel="self" />
   <link href="https://estmcmxci.co" />
   <updated>
-    2024-09-20T19:59:16Z
+    2024-09-20T20:24:15Z
   </updated>
   <id>https://estmcmxci.co</id>
   <author>
     <name>estmcmxci.eth</name>
   </author>
+  <entry>
+    <title></title>
+    <link href="/second/" />
+    <updated>2024-09-20T20:24:15Z</updated>
+    <id>/second/</id>
+    <content xml:lang="" type="html">
+      <h1>This is a test, will deploy the new build</h1>
+<p>Testing testing testing</p>
+
+    </content>
+  </entry>
   <entry>
     <title>Finding my way as an independent at the intersection of culture and technology</title>
     <link href="/origin.story/" />
