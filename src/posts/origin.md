@@ -1,5 +1,5 @@
 ---
-title: Finding my way as an independent at the intersection of culture and technology
+title: Renewal and Redemption at the Bleeding Edge
 description: Lore
 tags:
   - Lore
@@ -281,7 +281,7 @@ I’ve laid bare my struggles, strengths, and unique perspective at the intersec
 
 <div style="width: 900px; max-width: 100%; margin: 2rem auto;">
   <div style="position: relative; padding-top: 56.25%; /* 16:9 aspect ratio */">
-    <img src="/Posts/let-us-build.jpg" alt="cmd" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    <img src="/Posts/let-us-build-1.png" alt="cmd" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
   </div>
 </div>
 
